@@ -14,7 +14,7 @@ def unix_time2data(timestamp):
 
 class DetectWash:
     def __init__(self):
-        self.hand_wash_model = YOLO('best80.pt')
+        self.hand_wash_model = YOLO('best2_135.pt')
         self.predction_filter_car_plate  = PredictionFilter(50)
 
 
